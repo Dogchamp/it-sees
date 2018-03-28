@@ -14,7 +14,12 @@ The make_autostereogram() function will colors pixels with a corresponding pixel
 skipping pixels by a displacement related to the depth found in the depth map, and wrapping around the row as 
 needed until the entire row is colored.
 
-![Depth Map]({{ "/assets/shark-dm.jpg" | absolute_url }}){:height="50%" width="50%"}
-![Autostereogram]({{ "/assets/shark-dm-sgram.jpg" | absolute_url }}){:height="50%" width="50%"}
+An example of a color texture used:
+![Texture]({{ "/assets/texture.jpg" | absolute_url}})
+
+![Depth Map]({{ "/assets/shark-dm.jpg" | absolute_url }}){:height="50%" width="50%"} ![Autostereogram]({{ "/assets/shark-dm-sgram.jpg" | absolute_url }}){:height="50%" width="50%"}
+
+![Depth_Map]({{ "/assets/depth.jpg" | absolute_url }}) ![Autostereogram]({{ "/assets/depth-sgram.jpg" | absolute_url }})
+
 
 
