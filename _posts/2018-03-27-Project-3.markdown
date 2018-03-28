@@ -1,0 +1,20 @@
+---
+layout: post
+date: 2018-03-27
+category: Projects
+---
+
+Project 3
+---
+
+### Autostereograms ###
+The goal of the project is to make an autostereogram given a depth map and texture. 
+
+The make_autostereogram() function will colors pixels with a corresponding pixel in the texture, 
+skipping pixels by a displacement related to the depth found in the depth map, and wrapping around the row as 
+needed until the entire row is colored.
+
+![Depth Map]({{ "/assets/shark-dm.jpg" | absolute_url }}){:height="50%" width="50%"}
+![Autostereogram]({{ "/assets/shark-dm-sgram.jpg" | absolute_url }}){:height="50%" width="50%"}
+
+

@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Project 1"
+date: 2018-03-27
+categories: Projects
+---
+Project 1 
+---
+### Colorizing the Prokudin-Gorskii Photo Collection ###
+
+In order to correctly align the color channels, we first assign the correct color channel to each plate by dividing the image into vertical thirds, and then assigning the red color channel to the top third, the green color channel to the second third, and the blue color channel to the bottom third.
+As an extra feature, we then automatically correct the contrast of the entire picture via CLAHE. openCV's CLAHE module prefers to operate on grayscale pictures, so this part is done pre-alignment.
+
+Next, the alignment process begins. It does so by first constructing the Gaussian image pyramid down to four levels for each channel. Then, each level of the pyramid is scored against its corresponding level in the next channel. For example, red will be scored against green, and green to blue. Scoring is done via a sum of squared differences (ssd) operation.
+	
+The displacement is found for the best score (the lowest ssd), and then the image is then rolled to align. By applying a Gaussian filter to the image and then sampling every other pixel from the image to create a new one.
+			
+The images are then stacked on top of each other to form the final image. 
+[final-image]: ~/assets/lady_colore
+
+
