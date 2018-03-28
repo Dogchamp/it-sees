@@ -21,6 +21,7 @@ baseurl: "it-sees" # the subpath of your site, e.g. /blog
 url: "https://github.com/Dogchamp/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrisquion
 github_username:  dogchamp
+input: GFM
 
 # Build settings
 markdown: kramdown
