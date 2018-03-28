@@ -8,18 +8,21 @@ Project 3
 ---
 
 ### Autostereograms ###
-The goal of the project is to make an autostereogram given a depth map and texture. 
+Tohe goal of the project is to make an autostereogram given a depth map and texture. 
 
 The make_autostereogram() function will colors pixels with a corresponding pixel in the texture, 
 skipping pixels by a displacement related to the depth found in the depth map, and wrapping around the row as 
-needed until the entire row is colored.
+needed until the entire row is colored, and this is done for every row.
+
+Another autostereogram is made, but with smaller displacements, and this is overlayed on top of the first as a transparent layer, 
+in order to produce a greater sense of depth.
 
 An example of a color texture used:
 ![Texture]({{ "/assets/texture.jpg" | absolute_url}})
 
 ![Depth Map]({{ "/assets/shark-dm.jpg" | absolute_url }}){:height="50%" width="50%"} ![Autostereogram]({{ "/assets/shark-dm-sgram.jpg" | absolute_url }}){:height="50%" width="50%"}
 
+![ASgram With Overlay]({{ "/assets/shark-dm-sgram-with-overlay.jpg" | absolute_url}}){:height="50%" width="50%"}
+
 ![Depth_Map]({{ "/assets/depth.jpg" | absolute_url }}) ![Autostereogram]({{ "/assets/depth-sgram.jpg" | absolute_url }})
-
-
 
