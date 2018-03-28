@@ -18,7 +18,7 @@ email: chrischrisquion@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Computer Vision with OpenCV2 
 baseurl: "it-sees" # the subpath of your site, e.g. /blog
-url: "https://github.com/Dogchamp/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dogchamp.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrisquion
 github_username:  dogchamp
 input: GFM
