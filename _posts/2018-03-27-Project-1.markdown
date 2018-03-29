@@ -17,7 +17,8 @@ findTransformationECC(), and are applied via an affine transformation.
 
 			
 The images are then stacked on top of each other to form the final image. 
-![final-image]: ({{ "/assets/project1/lady_colored.jpg"}})
+![final-image]({{ "/assets/project1/lady_colored.jpg"}})
+
 
 
 

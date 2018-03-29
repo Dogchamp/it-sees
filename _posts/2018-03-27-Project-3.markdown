@@ -29,7 +29,6 @@ The resulting autostereogram:
 The autostereogram with a similar transparent autostereogram overlayed:
 ![ASgram With Overlay]({{ "/assets/project3/shark-dm-sgram-with-overlay.jpg" | absolute_url}}){:height="50%" width="50%"}
 
-![Depth_Map]({{ "/assets/project3/depth.jpg" | absolute_url }}) ![Autostereogram]({{ "/assets/project3/depth-sgram.jpg" | absolute_url }})
-
+![Depth_Map]({{ "/assets/project3/depth.jpg" | absolute_url }}) ![Autostereogram]({{ "/assets/depth-sgram.jpg" | absolute_url }})
 
 
