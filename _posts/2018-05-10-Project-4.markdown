@@ -1,0 +1,16 @@
+---
+layout: post
+date: 2018-05-10
+---
+
+
+Project 4
+---
+
+### Adversarial Networks
+The goal of this project was to generate adversarial examples that could trick a networked pretrained to recognize
+digits from the MNIST dataset.
+
+![Lined Up]({{ "/assets/project4/all lined up cropped.png" | absolute_url}})
+
+

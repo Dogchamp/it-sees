@@ -60,8 +60,7 @@ def show_image(im, desc):
 
 
 # ======================================  MAIN  ======================================
-# name of the input image
-path = "./assets/"
+path = "../../assets/project1/"
 imname = path + 'cathedral'
 fname = imname + '.jpg'
 
@@ -90,12 +89,10 @@ b = im[2*height:3*height]
 stacked = np.dstack((r,g,b))
 show_image(stacked, "stacked")
 
-aligned_image = np.zeros((height/3, width, 3), dtype=np.uint8)
+aligned_image = np.zeros((height//3, width, 3), dtype=np.uint8)
 
 
 # Align em
-rg = align_by_gradient(r, g)
-rgb = align_by_gradient(rg, b)
+align_by_gradient(aligned_image[,:,:
 
 show_image(rgb, "rgb")
-"""
