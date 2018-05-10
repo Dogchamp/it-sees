@@ -11,6 +11,15 @@ Project 4
 The goal of this project was to generate adversarial examples that could trick a networked pretrained to recognize
 digits from the MNIST dataset.
 
+In this example, we will be producing a 5, and try to get the network to think what we're giving it is an 8.
+First we start with a randomly produced static image, and then calculate its gradient descent.
+Then, we move opposite the gradient. We do this iteratively for a set amount of steps.
 ![Lined Up]({{ "/assets/project4/all lined up cropped.png" | absolute_url}})
+
+Here is the output of the network. As we can see, the network thinks our adversarial 5 is an 8.
+![Network Output]({{ "/assests/project4/network output.png" | absoulute_url}})
+
+
+
 
 
