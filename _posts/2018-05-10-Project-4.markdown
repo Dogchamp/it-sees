@@ -17,7 +17,8 @@ Then, we move opposite the gradient. We do this iteratively for a set amount of 
 ![Lined Up]({{ "/assets/project4/all lined up cropped.png" | absolute_url}})
 
 Here is the output of the network. As we can see, the network thinks our adversarial 5 is an 8.
-![Network Output]({{ "/assets/project4/network output cropped.png" | absoulute_url}})
+![Network Output]({{ "/assets/project4/network output cropped.png" | absolute_url}})
+
 
 
 
