@@ -19,14 +19,13 @@ Then, we move opposite the gradient. We do this iteratively for a set amount of 
 
 Here is the output of the network. As we can see, the network thinks our adversarial 5 is an 8.
 ![Network Output]({{ "/assets/project4/network output cropped.png" | absolute_url}})
-o
+
 ### Real World Applications
 With privacy becoming a growing concern in the modern world, using adversarial networks as a means to fight against
 face recognition could be very useful. 
 While obviously one means would be to simply scramble all faces, some information could be lost during communications.
 Therefore, using a GAN in order to preserve the original face/shape while still defending against recognition would be a 
 handy tool to use in the real world.
-
 
 ### Conclusions
 Of course, this application is probably too slow to run in real time, so a better solution would be needed.
